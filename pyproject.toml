@@ -1,0 +1,11 @@
+[tool.pytest.ini_options]
+addopts = "-ra"
+testpaths = ["tests"]
+
+[tool.coverage.run]
+branch = true
+source = ["budgetlite"]
+
+[tool.coverage.report]
+show_missing = true
+skip_covered = false
